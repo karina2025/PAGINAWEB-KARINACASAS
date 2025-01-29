@@ -37,6 +37,11 @@
     list-style: none;
     font-family: "Montserrat-SemiBold";
 }
+.ul__menu li a{
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+
 /********** main ******************/
 .main {
     /* background: red; */
