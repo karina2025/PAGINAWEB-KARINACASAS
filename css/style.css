@@ -91,9 +91,45 @@
     justify-content: space-evenly;
 }
 
-.section__icon img{
-    /* background: violet; */
+/**********************************imagen2*******************************/
+.section__card{
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 135svh;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+
 }
+
+.article__card {
+
+    width: 1394px;
+    height: 360px;
+    position:relative;
+    top: 5svh;
+    color: var(--font-color-1);
+}
+
+.article__card h1{
+
+    font-size: 55px;
+    font-family: "Montserrat-SemiBold";
+}
+
+
+body{
+
+    background: #071917;
+}
+
+
+
+
+
 
 
 /************** version movil **********************/
