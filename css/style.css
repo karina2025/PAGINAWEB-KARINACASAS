@@ -4,6 +4,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #071917;;
+}
+
 /********** header ******************/
 .header {
     /* background: orange; */
@@ -92,38 +97,78 @@
 }
 
 /**********************************imagen2*******************************/
-.section__card{
-
-
-    background-size: cover;
+.div__about1{
+    background-image: var(--banner-2);
+    background-size: 97% auto;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 135svh;
-    position: absolute;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5em;
-
+    height: 115svh;
+   ; 
 }
 
-.article__card {
 
-    width: 1394px;
+
+.foto1{
+    font-size: 68px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
     height: 360px;
-    position:relative;
-    top: 5svh;
+    position: relative;
+    top: 104svh;
+    left: 14svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     color: var(--font-color-1);
 }
 
-.article__card h1{
 
-    font-size: 55px;
-    font-family: "Montserrat-SemiBold";
+.div__about2{
+    background-image: var(--banner-3);
+    background-size: 97% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 117svh;
 }
 
 
-body{
 
-    background: #071917;
+.foto2{
+    font-size: 68px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
+    height: 360px;
+    position: relative;
+    top: 95svh;
+    left: 10svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
+}
+
+.div__about3{
+    background-image: var(--banner-4);
+    background-size: 97% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 115svh;
+}
+
+
+
+.foto3{
+    font-size: 68px;
+    font-family: "Montserrat-SemiBold";
+    width: 800px;
+    height: 360px;
+    position: relative;
+    top: 92svh;
+    left: 13svh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--font-color-1);
 }
 
 
